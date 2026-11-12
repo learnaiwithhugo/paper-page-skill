@@ -1,5 +1,6 @@
 {
   "name": "paper-page",
+  "version": "1.0.0",
   "description": "Design a web page in Paper with Claude, one section at a time.",
   "author": {
     "name": "Hugo Manning",
