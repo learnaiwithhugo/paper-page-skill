@@ -22,27 +22,42 @@ Paper Desktop connected to Claude. Download it at [paper.design/downloads](https
 
 ## Install
 
-### Claude app
+Pick one: the plugin (easy updates) or just the skill.
+
+### Option 1: The plugin
+
+**Claude app** (paid plans)
+
+1. Open **Customize** in the left sidebar, then the **Plugins** tab.
+2. Click **Add**, then **Add marketplace**.
+3. Choose **Add from a repository** and enter `learnaiwithhugo/paper-page-skill`.
+4. Find **paper-page** and click **Add**.
+
+**Claude Code**
+
+Type this in Claude Code:
+
+```
+/plugin install paper-page --marketplace learnaiwithhugo/paper-page-skill
+```
+
+### Option 2: Just the skill
+
+**Claude app**
 
 1. Download [paper-page.zip](https://github.com/learnaiwithhugo/paper-page-skill/releases/latest/download/paper-page.zip).
-2. In Claude, go to **Customize > Skills**.
+2. Open **Customize > Skills**.
 3. Click **+**, then **Create skill**, then **Upload a skill**.
 4. Pick `paper-page.zip`.
 
-Use it in the Claude desktop app, where Paper connects. Skills you add here also show up in Claude Code when you sign in with the same account.
+**Claude Code**
 
-### Claude Code
-
-Paste this into Claude Code:
-
-```
-Install the paper-page skill from https://github.com/learnaiwithhugo/paper-page-skill into ~/.claude/skills/paper-page
-```
-
-Or run this in your terminal:
+Run this in your terminal:
 
 ```bash
-git clone https://github.com/learnaiwithhugo/paper-page-skill.git /tmp/paper-page-skill && mkdir -p ~/.claude/skills && cp -R /tmp/paper-page-skill/paper-page ~/.claude/skills/
+git clone https://github.com/learnaiwithhugo/paper-page-skill.git /tmp/paper-page-skill && mkdir -p ~/.claude/skills && cp -R /tmp/paper-page-skill/skills/paper-page ~/.claude/skills/
 ```
 
-Restart Claude Code, then type `/paper-page`.
+### Then
+
+Use it in the Claude desktop app or Claude Code, where Paper connects. Anything you add in the Claude app also shows up in Claude Code when you sign in with the same account. Start a new chat and type `/paper-page`.

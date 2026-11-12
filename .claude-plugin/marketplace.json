@@ -1,0 +1,14 @@
+{
+  "name": "paper-page-skill",
+  "description": "Hugo Manning's paper-page plugin for Claude.",
+  "owner": {
+    "name": "Hugo Manning"
+  },
+  "plugins": [
+    {
+      "name": "paper-page",
+      "source": "./",
+      "description": "Design a web page in Paper with Claude, one section at a time."
+    }
+  ]
+}

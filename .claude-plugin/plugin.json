@@ -1,0 +1,10 @@
+{
+  "name": "paper-page",
+  "description": "Design a web page in Paper with Claude, one section at a time.",
+  "author": {
+    "name": "Hugo Manning",
+    "url": "https://learnaiwithhugo.com"
+  },
+  "homepage": "https://github.com/learnaiwithhugo/paper-page-skill",
+  "repository": "https://github.com/learnaiwithhugo/paper-page-skill"
+}
